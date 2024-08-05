@@ -1,10 +1,8 @@
 import {Link} from 'react-router-dom'
-import { GiTwirlyFlower } from "react-icons/gi";
 import { CiMail } from "react-icons/ci";
 import { RiSettings3Line } from "react-icons/ri";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { CgProfile } from "react-icons/cg";
-import {FaSearch} from "react-icons/fa";
 import './index.css'
 
 const Header = props => {

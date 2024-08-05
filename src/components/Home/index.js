@@ -4,8 +4,7 @@ import {
   FaChartPie,
   FaRegCheckCircle,
   FaRegTimesCircle,
-  FaRegMoneyBillAlt,
-  FaTasks,
+  FaRegMoneyBillAlt
 } from "react-icons/fa";
 import {
   BarChart,
@@ -338,7 +337,7 @@ const Home = () => (
                 </div>
               </div>
             </div>
-            <div className="top-section">
+            <div className="top-section bottom-section">
               <div className="orders-container">
                 <h1>Recent Orders</h1>
                 <table>
@@ -380,7 +379,7 @@ const Home = () => (
                   <div className="profile1">
                     <img
                       src="https://i.imgur.com/o5jXv0v.png"
-                      alt="Profile Picture"
+                      alt=""
                     />
                     <p>Jenny Wilson</p>
                     </div>
@@ -400,7 +399,7 @@ const Home = () => (
                   <div className="profile1">
                     <img
                       src="https://i.imgur.com/yD2J85A.png"
-                      alt="Profile Picture"
+                      alt=""
                     />
                     <p>Dianne Russell</p>
                   </div>
@@ -416,7 +415,7 @@ const Home = () => (
                   <div className="profile1">
                     <img
                       src="https://i.imgur.com/qM6yQzI.png"
-                      alt="Profile Picture"
+                      alt=""
                     />
                     <p>Devon Lane</p>
                   </div>

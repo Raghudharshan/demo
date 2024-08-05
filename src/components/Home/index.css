@@ -6,18 +6,20 @@
     font-family: 'Arial', sans-serif;
     padding: 15px;
     border-bottom-right-radius: 19px;
-    width: 92.2%;
   }
 .container{
     display: flex;
     justify-content: center;
     background-size: cover;
+    width: 100%;
+    height: 100vh;
   }
 
   @media screen and (max-width: 767px) {
     .container{
       height: 100vh;
       background-size: cover;
+      width:100%
     }
       .tab-home-container{
         display:flex;
@@ -26,8 +28,9 @@
 
 .tab-home-container{
   display:flex;
-  width: 50vw;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 .home-heading{
   font-size: 16px;
@@ -41,7 +44,7 @@
   background-color: #1e1e2d;
   padding: 10px;
   border-radius: 10px;
-  width: 100px;
+  width: 13.3%;
   height: 80px;
   margin: 5px;
 }
@@ -49,7 +52,7 @@
   background-color: #1e1e2d;
   padding-left: 10px;
   border-radius: 10px;
-  width: 250px;
+  width: 24.7%;
   height: 100px;
   margin: 5px;
   margin-left: 15px;
@@ -171,7 +174,7 @@
   color: #ffffff;
   font-family: Arial, sans-serif;
   height: 170px;
-  width: 59.7%;
+  width: 61.3%;
   padding-right: 20px;
 }
 
@@ -217,7 +220,7 @@
   padding: 10px;
   background-color: #181818;
   border-radius: 8px;
-  width: 240px;
+  width: 24.2%;
   height: 170px;
   margin-left: 20px;
 }
@@ -280,14 +283,13 @@
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  height:340px;
-  width: 495px;
+  width: 62%;
   background-color: #1e1e1e;
   margin-right: 20px;
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 15px;
 }
 
@@ -340,8 +342,7 @@ img {
   padding: 10px;
   color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  height:340px;
-  width: 240px;
+  width: 24.2%;
 }
 
 
@@ -396,4 +397,8 @@ img {
 .review {
   font-size: 7px;
   line-height: 1.5;
+}
+
+.bottom-section{
+  height: 48%;
 }
